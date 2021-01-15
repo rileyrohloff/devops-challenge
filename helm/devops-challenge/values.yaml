@@ -5,12 +5,3 @@ image:
 
 
 replicaCount: 1
-
-
-resources:
-  requests:
-    memory: "20Mi"
-    cpu: "0.25"
-  limits:
-    memory: "20Mi"
-    cpu: "0.5"
