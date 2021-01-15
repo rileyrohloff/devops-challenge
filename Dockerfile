@@ -1,7 +1,7 @@
 FROM alpine:3.13.0
 
 RUN apk upgrade && \
-    apk add bash gcc libc-dev python3-dev libffi-dev openssl-dev
+    apk add bash gcc libc-dev python3-dev
 
 COPY . /app
 WORKDIR /app
