@@ -1,0 +1,16 @@
+image:
+  repository: rileyrohloff/devops-challenge
+  tag: latest
+  pullPolicy: Always
+
+
+replicaCount: 1
+
+
+resources:
+  requests:
+    memory: "20Mi"
+    cpu: "0.25"
+  limits:
+    memory: "20Mi"
+    cpu: "0.5"
