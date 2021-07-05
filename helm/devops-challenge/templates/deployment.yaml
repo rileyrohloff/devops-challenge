@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-python
+spec:
+  selector:
+    matchLabels:
+      app: devops-python
+  replicas: {{ .Values.replicaCount }}
+  template:
+    metadata:
+      labels:
+        app: devops-python
+    spec:
+      containers:
+      - name: devops-python
+        image: {{ .Values.image.repository }}
