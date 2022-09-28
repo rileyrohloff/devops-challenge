@@ -1,0 +1,7 @@
+image:
+  repository: rileyrohloff/devops-challenge-python
+  tag: latest
+  pullPolicy: Always
+
+
+replicaCount: 2
