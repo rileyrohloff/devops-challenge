@@ -1,0 +1,7 @@
+image:
+  repository: rileyrohloff/devops-challenge
+  tag: latest
+  pullPolicy: Always
+
+
+replicaCount: 1

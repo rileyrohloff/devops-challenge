@@ -32,3 +32,11 @@ input:
       - terrain
       - url
       - residents
+  - type: films
+    id: 1
+    infoRequest:
+        - title
+        - episode_id
+        - director
+        - producer
+        - characters
